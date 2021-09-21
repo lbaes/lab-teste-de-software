@@ -1,20 +1,27 @@
-/target/classes/com/lbaes/laboratorio/DriverAgeClassifier.class
-/target/classes/com/lbaes/tests/DriverAgeClassifierTest.class
-/target/classes/com/lbaes/Main.class
-/target/classes/com/lbaes/laboratorio/StudentGradeValidator.class
-/target/classes/com/lbaes/tests/StudentGradeValidatorTest.class
-/target/classes/com/lbaes/laboratorio/YearValidator.class
-/target/classes/com/lbaes/tests/YearValidatorTest.class
-/target/test-classes/DriverAgeClassifierTest.class
-/target/test-classes/StudentGradeValidatorTest.class
-/target/test-classes/YearValidatorTest.class
-/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
-/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
-/target/surefire-reports/DriverAgeClassifierTest.txt
-/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
-/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
-/target/surefire-reports/StudentGradeValidatorTest.txt
-/target/surefire-reports/TEST-DriverAgeClassifierTest.xml
-/target/surefire-reports/TEST-StudentGradeValidatorTest.xml
-/target/surefire-reports/TEST-YearValidatorTest.xml
-/target/surefire-reports/YearValidatorTest.txt
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+.idea/
+target/
