@@ -1,5 +1,3 @@
-package com.lbaes.tests;
-
 import com.lbaes.laboratorio.DriverAgeClassifier;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;

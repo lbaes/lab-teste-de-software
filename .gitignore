@@ -1,0 +1,10 @@
+/target/classes/com/lbaes/laboratorio/DriverAgeClassifier.class
+/target/classes/com/lbaes/tests/DriverAgeClassifierTest.class
+/target/classes/com/lbaes/Main.class
+/target/classes/com/lbaes/laboratorio/StudentGradeValidator.class
+/target/classes/com/lbaes/tests/StudentGradeValidatorTest.class
+/target/classes/com/lbaes/laboratorio/YearValidator.class
+/target/classes/com/lbaes/tests/YearValidatorTest.class
+/target/test-classes/DriverAgeClassifierTest.class
+/target/test-classes/StudentGradeValidatorTest.class
+/target/test-classes/YearValidatorTest.class

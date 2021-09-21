@@ -1,5 +1,3 @@
-package com.lbaes.tests;
-
 import com.lbaes.laboratorio.YearValidator;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -16,7 +14,7 @@ class YearValidatorTest {
         boolean valid = YearValidator.ValidateYear(year);
 
         // Assert
-        assertEquals(true, valid);
+        assertTrue(valid);
     }
 
     @ParameterizedTest(name = "Year {0} is NOT a valid Year")
@@ -27,7 +25,7 @@ class YearValidatorTest {
         boolean valid = YearValidator.ValidateYear(year);
 
         // Assert
-        assertEquals(false, valid);
+        assertFalse(valid);
     }
 
     @ParameterizedTest(name = "Year {0} is NOT a valid Year")
@@ -38,6 +36,6 @@ class YearValidatorTest {
         boolean valid = YearValidator.ValidateYear(year);
 
         // Assert
-        assertEquals(false, valid);
+        assertFalse(valid);
     }
 }
