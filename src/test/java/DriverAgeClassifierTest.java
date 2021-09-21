@@ -11,7 +11,7 @@ class DriverAgeClassifierTest {
     private static String THREE_YEARS = "a cada 3 anos";
 
     @ParameterizedTest(name = "[age < 50] {0} is a cada 10 anos")
-    @ValueSource(ints = {70, 71, 80, 81, 90, 92, 103, 150})
+    @ValueSource(ints = {49, 30, 1, 2, 5, 20, 11, 40})
     void classifyDriverAge_WhenAgeIsLessThan50AndGreaterThan0_ShouldReturnStringEqualTo(int driverAge) {
         // Arrange
         String expectedString = TEN_YEARS;
@@ -24,7 +24,7 @@ class DriverAgeClassifierTest {
     }
 
     @ParameterizedTest(name = "[ age >= 50 and age < 70 ] {0} is a cada 5 anos")
-    @ValueSource(ints = {70, 71, 80, 81, 90, 92, 103, 150})
+    @ValueSource(ints = {50, 61, 65, 69,})
     void classifyDriverAge_WhenAgeIsGreaterThanOrEqualTo50AndLessThan70_ShouldReturnFIVE_YEARSString(int driverAge) {
         // Arrange
         String expectedString = FIVE_YEARS;
