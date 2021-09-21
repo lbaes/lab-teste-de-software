@@ -8,3 +8,13 @@
 /target/test-classes/DriverAgeClassifierTest.class
 /target/test-classes/StudentGradeValidatorTest.class
 /target/test-classes/YearValidatorTest.class
+/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+/target/surefire-reports/DriverAgeClassifierTest.txt
+/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+/target/surefire-reports/StudentGradeValidatorTest.txt
+/target/surefire-reports/TEST-DriverAgeClassifierTest.xml
+/target/surefire-reports/TEST-StudentGradeValidatorTest.xml
+/target/surefire-reports/TEST-YearValidatorTest.xml
+/target/surefire-reports/YearValidatorTest.txt
